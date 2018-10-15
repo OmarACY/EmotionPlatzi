@@ -20,7 +20,7 @@ namespace EmtionPlatzi.Web.Controllers
         public ActionResult IndexAlt()
         {
             var modelo = new Home();
-            modelo.WelcomeMessage = "Hola Omar Cervantes desde el modelo";
+            modelo.WelcomeMessage = "Hola Omar Cervantes desde el modelo home";
             return View(modelo);
         }
     }
